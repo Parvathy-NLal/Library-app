@@ -77,7 +77,7 @@ function validate(){
 
 function validate1(){
     let regexp = /^([\w\.-]+)@([A-Za-z0-9\-]+)\.([a-z]{2,3})(.[a-z]{2,3})?$/
-    let regexp1= /^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{6,32}$/
+    let regexp1= /^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{8,32}$/
     
 
     //A-Za-z0-9 can be replaced with \w

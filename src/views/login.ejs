@@ -27,8 +27,10 @@
     </div>
     <nav class="collapse navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
-          <%for(i=0;i<2;i++){%>
-
+          <%for(i=0;i<nav.length;i++){%>
+            <%if(i==2){%>
+              <%continue;%>
+              <%}%>
         <li>
           <a href="<%=nav[i].link%>"><%=nav[i].name%></a>
         </li>
